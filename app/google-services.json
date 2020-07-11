@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763125133247",
+    "firebase_url": "https://thoughts-app-79829.firebaseio.com",
+    "project_id": "thoughts-app-79829",
+    "storage_bucket": "thoughts-app-79829.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763125133247:android:77fa49f80410e67757bb0a",
+        "android_client_info": {
+          "package_name": "com.example.thoughtsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763125133247-vlv7ms30jq0o1dgm702824i0c1s93c3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBITp4lxP9_C9hkTnVbz5yIOpSvT4RwGMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763125133247-vlv7ms30jq0o1dgm702824i0c1s93c3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
