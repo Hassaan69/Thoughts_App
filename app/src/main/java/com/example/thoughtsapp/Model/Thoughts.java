@@ -1,4 +1,4 @@
-package com.example.thoughtsapp;
+package com.example.thoughtsapp.Model;
 
 import com.google.firebase.firestore.FieldValue;
 
@@ -24,15 +24,6 @@ public class Thoughts {
         this.numLikes = numLikes;
         this.numComments = numComments;
         this.category = category;
-        this.documentId = documentId;
-    }
-
-    public Thoughts(String username, Date timestamp, String thoughtsText, Integer numLikes, Integer numComments, String documentId) {
-        this.username = username;
-        this.timestamp = timestamp;
-        ThoughtsText = thoughtsText;
-        this.numLikes = numLikes;
-        this.numComments = numComments;
         this.documentId = documentId;
     }
 

@@ -1,4 +1,4 @@
-package com.example.thoughtsapp;
+package com.example.thoughtsapp.Activities;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +10,7 @@ import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.thoughtsapp.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;
@@ -19,6 +20,9 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 
 public class AddThoughtActivity extends AppCompatActivity {
+
+    private static int PICK_IMAGE_REQUEST = 1;
+
     private String FUNNY = "funny";
     private String SERIOUS = "serious";
     private String CRAZY = "crazy";
@@ -32,7 +36,6 @@ public class AddThoughtActivity extends AppCompatActivity {
 
     private TextView addUserNameText;
     private TextView addThoughtText;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,4 +120,5 @@ public class AddThoughtActivity extends AppCompatActivity {
         addFunnyButton.setChecked(false);
         selectedCategory = CRAZY;
     }
+
 }

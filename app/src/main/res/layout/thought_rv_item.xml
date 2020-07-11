@@ -37,10 +37,22 @@
         android:layout_marginStart="8dp"
         android:text="99"
         android:textColor="@color/colorPrimary"
-        android:textSize="32sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/rvLikeImage"
         app:layout_constraintStart_toEndOf="@+id/rvLikeImage"
         app:layout_constraintTop_toTopOf="@+id/rvLikeImage" />
+
+    <TextView
+        android:id="@+id/rvNumCommentsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="99"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rvCommentImage"
+        app:layout_constraintStart_toEndOf="@+id/rvCommentImage"
+        app:layout_constraintTop_toTopOf="@+id/rvCommentImage" />
 
     <TextView
         android:id="@+id/rvThoughtTxt"
@@ -57,8 +69,8 @@
 
     <ImageView
         android:id="@+id/rvLikeImage"
-        android:layout_width="40dp"
-        android:layout_height="50dp"
+        android:layout_width="48dp"
+        android:layout_height="49dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
@@ -66,4 +78,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rvThoughtTxt"
         app:srcCompat="@drawable/ic_like_thought" />
+
+    <ImageView
+        android:id="@+id/rvCommentImage"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rvNumLikesLabel"
+        app:layout_constraintStart_toEndOf="@+id/rvNumLikesLabel"
+        app:layout_constraintTop_toTopOf="@+id/rvNumLikesLabel"
+        app:srcCompat="@drawable/ic_comment" />
 </androidx.constraintlayout.widget.ConstraintLayout>
